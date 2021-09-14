@@ -1,0 +1,102 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.bg-img {
+  background-image: url("images/fitnesslogo.png");
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container {
+  position: absolute;
+  margin: 0px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(231, 178, 178);
+  color: black;
+}
+li {
+    display: inline;
+  }
+  .form-style{
+    font: 100% Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 16px;
+    background: rgb(255, 255, 255);
+  }
+  .form-style h1{
+    background: rgb(177, 133, 107);
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(7, 7, 7);
+    margin: -16px -16px 16px -16px;
+  }
+  .form-style input[type="text"],
+  .form-style input[type="number"],
+  .form-style textarea,
+  .form-style select 
+  {
+    
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 1%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+  }
+  .form-style input[type="text"]:focus,
+  .form-style input[type="number"]:focus,
+  .form-style textarea:focus,
+  .form-style select:focus
+  {
+    box-shadow: 0 0 5px rgb(238, 57, 11);
+    padding: 3%;
+    border: 1px solid rgb(0, 0, 0);
+    color:black;
+    background-color: rgb(199, 171, 171);
+  }
+  
+  .form-style input[type="submit"]{ 
+    width: 100%;
+    padding: 3%;
+    background: rgb(153, 204, 119);
+    border-bottom: 2px solid #aaffea;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;	
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  .form-style input[type="submit"]:hover{
+    background: #6edfc2;
+    font-weight: bold;
+  }
